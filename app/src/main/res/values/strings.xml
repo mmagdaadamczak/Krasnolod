@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Krasnolód</string>
+    <string name="logo">krasnolód</string>
+    <string name="address">Komuny Paryskiej 10, Wrocław</string>
+    <string name="details">- Lody rzemieślnicze -</string>
+    <string name="open_hours">- 11:00 do 20:00 -</string>
+
+
+</resources>

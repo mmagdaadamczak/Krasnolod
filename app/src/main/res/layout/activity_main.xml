@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B2DFDB"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        style="@style/LogoStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/recommended_margin"
+        android:layout_marginRight="@dimen/recommended_margin"
+        android:layout_marginTop="@dimen/recommended_margin"
+        android:text="@string/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/recommended_margin"
+        android:layout_marginLeft="@dimen/recommended_margin"
+        android:layout_marginRight="@dimen/recommended_margin"
+        android:text="@string/details" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ic_ice_cream2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/recommended_margin"
+        android:layout_marginRight="@dimen/recommended_margin"
+        android:layout_marginTop="@dimen/recommended_margin"
+        android:text="@string/address"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/recommended_margin"
+        android:layout_marginLeft="@dimen/recommended_margin"
+        android:layout_marginRight="@dimen/recommended_margin"
+        android:text="@string/open_hours" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/recommended_margin"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/recommended_margin"
+            android:onClick="goToPhone"
+            android:src="@drawable/ic_iphone" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/recommended_margin"
+            android:onClick="goToFacebook"
+            android:src="@drawable/ic_social_facebook" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/recommended_margin"
+            android:onClick="goToMail"
+            android:src="@drawable/ic_email" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/recommended_margin"
+            android:onClick="goToMap"
+            android:src="@drawable/ic_map" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
